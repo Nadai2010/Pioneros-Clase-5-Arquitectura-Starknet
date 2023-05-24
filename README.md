@@ -1,16 +1,35 @@
+<div align="center">
+  <img src="https://github.com/Nadai2010/Pioneros-Maths-STARKs-101/blob/master/Im%C3%A1genes/Pioneros.png" style="width: 200px">
+  <h1 style="font-size: larger;">
+    <img src="https://github.com/Nadai2010/Nadai-SHARP-Starknet/blob/master/im%C3%A1genes/Starknet.png" width="40">
+    <strong>Starknet Pioneros - Arquitectura de Starknet</strong> 
+    <img src="https://github.com/Nadai2010/Nadai-SHARP-Starknet/blob/master/im%C3%A1genes/Starknet.png" width="40">
+  </h1>
+</div>
+
+<div align="center">
+     
+Puede encontrar las Diapositvas de la Presentación [aquí]()
+</div>
+<p align="center">
+    <a href="https://starkware.co/">
+        <img src="https://img.shields.io/badge/powered_by-StarkWare-navy">
+    </a>
+</p>
+
 # Arquitectura de Starknet
 
 En este documento, exploraremos la arquitectura de Starknet y sus componentes fundamentales para ayudarte en la construcción de aplicaciones web3 escalables. Starknet ha experimentado un crecimiento significativo como el primer rollup basado en ZK. Nuestro objetivo es proporcionarte un conocimiento profundo de los elementos clave de Starknet, permitiéndote desarrollar e implementar dApps de manera eficiente.
 
 A lo largo de este documento, abordaremos los siguientes temas:
 
-* Nodos de L2: Una descripción general de los diferentes nodos de Starknet (Secuenciador, Verificador, Nodos completos e Indexador) y sus roles dentro de la red.
-* Ciclo de vida de las transacciones: Una explicación detallada de los diferentes estados por los que pasa una transacción de capa 2, discutiendo los beneficios y riesgos de considerar un estado en particular como "finalidad".
-* Starknet OS: Una exploración de cómo el Secuenciador valida y ejecuta transacciones, y su conexión con la Abstracción de Cuentas (AA, por sus siglas en inglés).
-* SHARP: Un examen del flujo de trabajo del Verificador para generar pruebas para Starknet y Starkex utilizando la recursividad, centrándose en el flujo de trabajo en lugar de las matemáticas detrás de STARKs.
-* DA o Disponibilidad de datos: Una discusión sobre la Disponibilidad de Datos en Starknet en modo Rollup (excluyendo Volition por ahora).
-* Componentes de L1: Un análisis exhaustivo del Verificador en la cadena y el Registro de Hechos, y una discusión sobre cómo funcionaría una salida de emergencia de capa 1.
-* Puentes: Una explicación de cómo funciona la comunicación entre capa 1 y capa 2, y cómo se pueden crear puentes entre redes.
+* **Nodos de L2:** Una descripción general de los diferentes nodos de Starknet (Secuenciador, Verificador, Nodos completos e Indexador) y sus roles dentro de la red.
+* **Ciclo de vida de las transacciones:** Una explicación detallada de los diferentes estados por los que pasa una transacción de capa 2, discutiendo los beneficios y riesgos de considerar un estado en particular como "finalidad".
+* **Starknet OS:** Una exploración de cómo el Secuenciador valida y ejecuta transacciones, y su conexión con la Abstracción de Cuentas (AA, por sus siglas en inglés).
+* **SHARP:** Un examen del flujo de trabajo del Verificador para generar pruebas para Starknet y Starkex utilizando la recursividad, centrándose en el flujo de trabajo en lugar de las matemáticas detrás de STARKs.
+* **DA o Disponibilidad de datos:** Una discusión sobre la Disponibilidad de Datos en Starknet en modo Rollup (excluyendo Volition por ahora).
+* **Componentes de L1:** Un análisis exhaustivo del Verificador en la cadena y el Registro de Hechos, y una discusión sobre cómo funcionaría una salida de emergencia de capa 1.
+* **Puentes:** Una explicación de cómo funciona la comunicación entre capa 1 y capa 2, y cómo se pueden crear puentes entre redes.
 
 ## Temas
 
