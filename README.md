@@ -467,7 +467,7 @@ Veamos una transacción que se envió al contrato Verifier en la red principal d
 
     - Puedes verificar por ti mismo consultando la función `isValid` en el contrato MemoryPageFactRegistry con la entrada `0x72C8D723081B60693B32D77A369782FF189754A5897002314FB1569B7E2EE1E2` para obtener `true` como resultado.
 
-## # Contrato Verifier en la arquitectura de Starknet
+## Contrato Verifier en la arquitectura de Starknet
 
 El ejemplo anterior muestra cómo se verifica y registra una prueba en Ethereum, y ofrece una idea de cómo se utiliza el contrato Verifier en la arquitectura de Starknet.
 
